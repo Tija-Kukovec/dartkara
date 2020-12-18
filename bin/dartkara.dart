@@ -2,10 +2,9 @@ import 'dart:io';
 void main() {
   print('Sirina kare? - 7');
 
-  // var x = int.parse(stdin.readLineSync());
-  // print(x);
+  var x = int.parse(stdin.readLineSync());
 
-  int x = 7;
+  
   if (x % 2 == 0) x += 1;
 
   var zvezdica = String.fromCharCode(42);
