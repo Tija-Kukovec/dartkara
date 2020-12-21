@@ -7,8 +7,8 @@ void main() {
   
   if (x % 2 == 0) x += 1;
 
-    double xs = (x + 1) / 2;
-    x = xs.toInt();
+    double y = (x + 1) / 2;
+    x = y.toInt();
 
   
 
