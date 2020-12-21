@@ -1,11 +1,16 @@
 import 'dart:io';
 void main() {
-  print('Sirina kare? - 7');
+  print('Sirina kare?');
 
   var x = int.parse(stdin.readLineSync());
 
   
   if (x % 2 == 0) x += 1;
+
+    double xs = (x + 1) / 2;
+    x = xs.toInt();
+
+  
 
   var zvezdica = String.fromCharCode(42);
   var presledek = String.fromCharCode(32);
